@@ -1,0 +1,23 @@
+table {
+  width: 800px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 30px auto;
+  font-size: 18px;
+  box-shadow: -2px 16px 37px -12px #000000bf;
+}
+th,
+td {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 10px;
+  height: 24px;
+}
+th {
+  color: #fff;
+  background-color: #33aed4;
+}
+td {
+  color: #696969;
+  background-color: #f0ffff;
+}

@@ -4,21 +4,21 @@
   margin: 30px auto;
   border-radius: 8px;
   overflow: hidden;
-  background-color: azure;
-  box-shadow: -2px 16px 37px -12px rgba(0, 0, 0, 0.75);
+  background-color: #f0ffff;
+  box-shadow: -2px 16px 37px -12px #000000bf;
 }
 .description {
   font-size: 22px;
   font-weight: 600;
   text-align: center;
   padding: 20px;
-  color: rgb(133, 130, 130);
+  color: #858282;
 }
 .avatar {
   display: block;
   width: 50%;
   border-radius: 50%;
-  background-color: aqua;
+  background-color: #00ffff;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -26,13 +26,13 @@
 .name {
   font-size: 32px;
   font-weight: 700;
-  color: black;
+  color: #000000;
 }
 .stats {
   display: flex;
   padding: 0;
   margin: 0;
-  background-color: rgb(232, 239, 248);
+  background-color: #e8eff8;
 }
 .stats li {
   display: flex;
@@ -40,7 +40,7 @@
   align-items: center;
   gap: 16px;
   padding: 20px;
-  border: 1px solid rgb(192, 208, 225);
+  border: 1px solid #c0d0e1;
   width: calc(100% / 3);
 }
 .label {
@@ -48,5 +48,5 @@
 .quantity {
   font-size: 20px;
   font-weight: 600;
-  color: black;
+  color: #000000;
 }

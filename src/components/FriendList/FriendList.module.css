@@ -1,0 +1,40 @@
+.friendList {
+  list-style: none;
+  padding: 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: fit-content;
+  margin: 30px auto;
+  padding: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f0ffff;
+  box-shadow: -2px 16px 37px -12px #000000bf;
+}
+
+.status::after {
+  content: '🟢';
+  font-size: 24px;
+  color: #000000;
+}
+.status::before {
+  content: '🔴';
+  font-size: 24px;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 16px;
+  background-color: #00ffff;
+  overflow: hidden;
+}
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+}
