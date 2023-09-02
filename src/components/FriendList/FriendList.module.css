@@ -3,6 +3,7 @@
   padding: 0;
 }
 .item {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -16,14 +17,18 @@
   box-shadow: -2px 16px 37px -12px #000000bf;
 }
 
-.status::after {
-  content: '🟢';
-  font-size: 24px;
-  color: #000000;
+.status {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }
-.status::before {
-  content: '🔴';
-  font-size: 24px;
+
+.online {
+  background-color: #008000;
+}
+
+.offline {
+  background-color: #ff0000;
 }
 
 .avatar {
